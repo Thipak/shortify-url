@@ -1,0 +1,8 @@
+<form action="/submit" method="POST">
+    {{ csrf_token }}
+    <h1>Welcome to the Shortify URL</h1>
+    <p>This is a simple HTML page you can use to get your Shortified URL.</p>
+    <label for="inputURL">Enter some URL:</label>
+    <input type="text" id="inputURL" name="inputURL" placeholder="Enter something...">
+    <button type="submit">Submit</button>
+</form>
